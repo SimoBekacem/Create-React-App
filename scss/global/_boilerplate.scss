@@ -1,0 +1,19 @@
+//? Reseting the styling given by default to the browser.
+html {
+	box-sizing: border-box;
+	font-size: 100%;
+}
+
+*,
+*::after,
+*::before {
+	box-sizing: inherit;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: var(--background-color);
+	color: var(--text-color);
+	font-family: var(--font__noto-serif);
+}

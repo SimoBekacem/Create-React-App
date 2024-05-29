@@ -30,6 +30,8 @@ do
             cp -r ../React/webpack.config.js ./
             # Now we will copy the src folder to the AppName folder
             cp -r ../React/src ./
+            # Copy the sass template to the project
+            cp -r ../scss ./src/
             # ask the user to add the scripts start and build.
 	    echo " Add this scripts \"start\":\"webpack-dev-server --mode development --open --hot\" to package.json"
 	    echo " Add this scripts \"build\":\"webpack --mode production\" to package.json "

@@ -1,0 +1,21 @@
+//? Some default styling for text
+@use '../utils/functions' as f;
+
+h1,
+h2,
+h3 {
+	font-weight: 700;
+	line-height: 1.1;
+	font-size: clamp(f.rem(28), calc(2vw + f.rem(16)), f.rem(40));
+	margin-bottom: f.rem(18.76);
+}
+
+p {
+	font-size: f.rem(16);
+}
+
+a,
+a:visited,
+a:hover {
+	text-decoration: none;
+}
